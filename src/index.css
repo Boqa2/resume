@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .contact{
+       @apply flex items-center gap-2
+    }
+
+    .copact{
+        @apply font-semibold text-lg 
+    }
+    .tools{
+        @apply border-b-2 border-dotted border-black flex flex-col w-full gap-3 pb-3
+    }
+    .black{
+        @apply flex items-center gap-3
+    }
+    .borders {
+        @apply w-full rounded-xl h-2 bg-black
+    }
+    .borders2{
+        @apply w-full rounded-xl h-2 border border-black
+    }
+}
+
+
